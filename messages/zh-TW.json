@@ -1,0 +1,86 @@
+{
+  "common": {
+    "appName": "LinguaAI",
+    "loading": "載入中...",
+    "error": "發生錯誤",
+    "save": "儲存",
+    "cancel": "取消",
+    "confirm": "確認",
+    "back": "返回",
+    "next": "下一步",
+    "submit": "提交"
+  },
+  "nav": {
+    "home": "首頁",
+    "vocabulary": "單字學習",
+    "review": "每日複習",
+    "conversation": "AI 對話",
+    "report": "學習報告",
+    "settings": "設定"
+  },
+  "home": {
+    "title": "歡迎使用 LinguaAI",
+    "subtitle": "AI 驅動的英文學習助手",
+    "startLearning": "開始學習",
+    "dailyReview": "今日複習",
+    "wordsLearned": "已學單字",
+    "streakDays": "連續學習天數"
+  },
+  "vocabulary": {
+    "title": "單字學習",
+    "searchPlaceholder": "搜尋單字...",
+    "level": "難度等級",
+    "pronunciation": "發音",
+    "definition": "定義",
+    "example": "例句",
+    "addToReview": "加入複習"
+  },
+  "review": {
+    "title": "每日複習",
+    "dueToday": "今日待複習",
+    "completed": "已完成",
+    "again": "再試一次",
+    "hard": "困難",
+    "good": "良好",
+    "easy": "簡單",
+    "nextReview": "下次複習"
+  },
+  "conversation": {
+    "title": "AI 對話練習",
+    "selectScene": "選擇情境",
+    "scenes": {
+      "restaurant": "餐廳點餐",
+      "directions": "問路指引",
+      "shopping": "購物對話",
+      "interview": "工作面試",
+      "travel": "旅遊英語"
+    },
+    "startSession": "開始對話",
+    "endSession": "結束對話",
+    "yourTurn": "輪到你了",
+    "correction": "修正建議"
+  },
+  "report": {
+    "title": "學習報告",
+    "weeklyStats": "本週統計",
+    "studyDays": "學習天數",
+    "wordsMastered": "已掌握單字",
+    "accuracy": "正確率",
+    "weakWords": "弱點單字"
+  },
+  "settings": {
+    "title": "設定",
+    "language": "介面語言",
+    "lineBinding": "LINE 帳號綁定",
+    "lineId": "LINE 用戶 ID",
+    "bindLine": "綁定 LINE",
+    "account": "帳號資訊",
+    "logout": "登出"
+  },
+  "auth": {
+    "signIn": "登入",
+    "signOut": "登出",
+    "signInWithGoogle": "使用 Google 登入",
+    "signInPrompt": "登入以開始學習"
+  }
+}

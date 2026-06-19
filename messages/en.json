@@ -1,0 +1,86 @@
+{
+  "common": {
+    "appName": "LinguaAI",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit"
+  },
+  "nav": {
+    "home": "Home",
+    "vocabulary": "Vocabulary",
+    "review": "Daily Review",
+    "conversation": "AI Chat",
+    "report": "Learning Report",
+    "settings": "Settings"
+  },
+  "home": {
+    "title": "Welcome to LinguaAI",
+    "subtitle": "Your AI-powered English learning assistant",
+    "startLearning": "Start Learning",
+    "dailyReview": "Today's Review",
+    "wordsLearned": "Words Learned",
+    "streakDays": "Day Streak"
+  },
+  "vocabulary": {
+    "title": "Vocabulary",
+    "searchPlaceholder": "Search words...",
+    "level": "Level",
+    "pronunciation": "Pronunciation",
+    "definition": "Definition",
+    "example": "Example",
+    "addToReview": "Add to Review"
+  },
+  "review": {
+    "title": "Daily Review",
+    "dueToday": "Due Today",
+    "completed": "Completed",
+    "again": "Again",
+    "hard": "Hard",
+    "good": "Good",
+    "easy": "Easy",
+    "nextReview": "Next Review"
+  },
+  "conversation": {
+    "title": "AI Conversation Practice",
+    "selectScene": "Select Scene",
+    "scenes": {
+      "restaurant": "Restaurant Ordering",
+      "directions": "Asking Directions",
+      "shopping": "Shopping",
+      "interview": "Job Interview",
+      "travel": "Travel English"
+    },
+    "startSession": "Start Session",
+    "endSession": "End Session",
+    "yourTurn": "Your Turn",
+    "correction": "Correction Tips"
+  },
+  "report": {
+    "title": "Learning Report",
+    "weeklyStats": "Weekly Stats",
+    "studyDays": "Study Days",
+    "wordsMastered": "Words Mastered",
+    "accuracy": "Accuracy",
+    "weakWords": "Weak Words"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Interface Language",
+    "lineBinding": "LINE Account Binding",
+    "lineId": "LINE User ID",
+    "bindLine": "Bind LINE",
+    "account": "Account Info",
+    "logout": "Logout"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "signInWithGoogle": "Sign in with Google",
+    "signInPrompt": "Sign in to start learning"
+  }
+}
