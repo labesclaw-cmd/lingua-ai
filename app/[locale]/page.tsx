@@ -18,10 +18,10 @@ export default function HomePage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link
-              href="/vocabulary"
-              className="inline-flex items-center justify-center h-10 px-6 rounded-lg bg-gray-900 text-white font-medium hover:bg-gray-700 transition-colors"
+              href="/learn"
+              className="inline-flex items-center justify-center h-10 px-6 rounded-lg bg-indigo-600 text-white font-medium hover:bg-indigo-700 transition-colors"
             >
-              {t("startLearning")}
+              📖 {t("startLearning")}
             </Link>
             <Link
               href="/review"
@@ -34,6 +34,7 @@ export default function HomePage() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
           {[
+            { label: nav("learn"), href: "/learn", icon: "📖" },
             { label: nav("vocabulary"), href: "/vocabulary", icon: "📚" },
             { label: nav("review"), href: "/review", icon: "🔄" },
             { label: nav("conversation"), href: "/conversation", icon: "💬" },

@@ -12,6 +12,7 @@
   },
   "nav": {
     "home": "Home",
+    "learn": "Word Cards",
     "vocabulary": "Vocabulary",
     "review": "Daily Review",
     "conversation": "AI Chat",
@@ -77,10 +78,23 @@
     "account": "Account Info",
     "logout": "Logout"
   },
+  "learn": {
+    "title": "Learn Vocabulary",
+    "totalWords": "words",
+    "definition": "Definition",
+    "example": "Example",
+    "speak": "Listen",
+    "prev": "Previous",
+    "next": "Next",
+    "noWords": "No vocabulary available. Please check back later.",
+    "keyboardHint": "Use ← → arrow keys to navigate"
+  },
   "auth": {
     "signIn": "Sign In",
     "signOut": "Sign Out",
     "signInWithGoogle": "Sign in with Google",
-    "signInPrompt": "Sign in to start learning"
+    "signInPrompt": "Sign in to start learning",
+    "subtitle": "Your AI-powered English learning assistant",
+    "googleLogin": "Continue with Google"
   }
 }
