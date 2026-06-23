@@ -4,7 +4,11 @@
 // outputs SQL INSERT to stdout for piping to Supabase execute_sql.
 // Run: node scripts/seed-vocabulary.mjs > /tmp/seed.sql
 
-const NVIDIA_API_KEY = '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';
+const NVIDIA_API_KEY = process.env.NVIDIA_API_KEY;
+if (!NVIDIA_API_KEY) {
+  console.error('缺少環境變數 NVIDIA_API_KEY，請先 export NVIDIA_API_KEY=... 再執行');
+  process.exit(1);
+}
 const NVIDIA_BASE_URL = 'https://integrate.api.nvidia.com/v1';
 const NVIDIA_MODEL = 'meta/llama-3.1-8b-instruct';
 
